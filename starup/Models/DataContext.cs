@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using starup.Models;
 
 namespace starup.Models
 {
@@ -10,5 +11,6 @@ namespace starup.Models
         }
 
         public DbSet<Menu> Menus{ get; set; }
+        public DbSet<Post> Posts { get; set; }
     }
 }
